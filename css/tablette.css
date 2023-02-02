@@ -1,0 +1,63 @@
+/*** Responsive tablette ***/
+@media (min-width: 768px) and (max-width: 992px) {
+  /**header***/
+  #logo > img {
+    height: 20%;
+  }
+  nav {
+    gap: unset;
+  }
+  .menuItem:hover {
+    border-top: unset;
+    color: black;
+  }
+  /*** filtres***/
+
+  .filtres {
+    flex-wrap: nowrap;
+  }
+  .icone {
+    background-color: unset;
+  }
+
+  /* ================== Hébergement section ================== */
+
+  .explore {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #hotels_marseille {
+    width: 95%;
+    padding: 20px;
+  }
+
+  /*   ---   Les plus populaire   ---   */
+
+  #popular {
+    width: 100%;
+  }
+
+  .popular_box_title {
+    flex-direction: row;
+  }
+
+  .popular_all_cards {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .popular_card {
+    height: 150px;
+  }
+  /*** Activités ***/
+
+  .activites_box_title {
+    margin-left: 5px;
+  }
+
+  /* footer */
+  footer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}

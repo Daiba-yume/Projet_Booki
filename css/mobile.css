@@ -1,0 +1,101 @@
+/* Responsive mobile */
+
+@media screen and (max-width: 767px) {
+  /* header */
+  header {
+    flex-direction: column;
+    justify-content: unset;
+    height: auto;
+  }
+  #logo {
+    height: auto;
+    justify-content: center;
+  }
+
+  nav {
+    height: 50px;
+    padding-right: 0px;
+  }
+  .menuItem {
+    width: 50%;
+  }
+  .menuItem:hover {
+    border-top: unset;
+    border-bottom: 2px solid #0065fc;
+  }
+  /*** main ***/
+
+  /* main */
+  main {
+    margin: 0px;
+  }
+
+  /************ La barre de rechch ************/
+  .section1 {
+    margin: 30px;
+  }
+
+  .search {
+    display: none;
+  }
+  .search-loupe {
+    display: block;
+  }
+
+  /**** Filtres ****/
+
+  .blocFiltres {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  /* ================== Hébergement section ================== */
+
+  .explore {
+    flex-direction: column-reverse;
+  }
+  #hotels_marseille {
+    width: 100%;
+    background-color: unset;
+  }
+
+  .all_cards {
+    justify-content: unset;
+    flex-direction: column;
+  }
+
+  .heberg_card {
+    width: 100%;
+  }
+
+  /*   ---   Les plus populaire   ---   */
+
+  #popular {
+    width: 100%;
+    border-radius: unset;
+  }
+
+  /*** Activités ***/
+
+  .activites_all_cards {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: unset;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .activites_card {
+    width: 100%;
+  }
+
+  /* footer */
+
+  footer {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .columnFooter {
+    width: 100%;
+  }
+}
