@@ -80,6 +80,10 @@
 
   /*** Activités ***/
 
+  .activites_title {
+    margin-left: 20px;
+  }
+
   .activites_all_cards {
     padding-left: 20px;
     padding-right: 20px;
