@@ -23,7 +23,6 @@
     border-top: unset;
     border-bottom: 2px solid #0065fc;
   }
-  /*** main ***/
 
   /* main */
   main {
@@ -47,6 +46,10 @@
   .blocFiltres {
     flex-direction: column;
     align-items: unset;
+  }
+
+  .icone {
+    background-color: unset;
   }
 
   /* ================== Hébergement section ================== */
