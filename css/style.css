@@ -433,6 +433,9 @@ main {
 
 .activites_box_title {
   display: flex;
+}
+
+h2 {
   margin-left: 0px;
 }
 
