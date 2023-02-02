@@ -435,10 +435,6 @@ main {
   display: flex;
 }
 
-h2 {
-  margin-left: 0px;
-}
-
 .activites_all_cards {
   display: flex;
   justify-content: space-between;
