@@ -433,6 +433,7 @@ main {
 
 .activites_box_title {
   display: flex;
+  margin-left: 0px;
 }
 
 .activites_all_cards {
