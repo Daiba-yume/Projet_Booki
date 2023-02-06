@@ -454,6 +454,7 @@ main {
   gap: unset;
   padding-left: unset;
   padding-right: unset;
+  padding-bottom: unset;
 }
 .activites_card {
   display: flex;
