@@ -48,6 +48,10 @@
     align-items: unset;
   }
 
+  .filtres {
+    width: 60%;
+  }
+
   .icone {
     background-color: unset;
   }

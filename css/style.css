@@ -152,6 +152,7 @@ main {
   margin-inline-end: 0px;
 }
 .filtres {
+  width: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
