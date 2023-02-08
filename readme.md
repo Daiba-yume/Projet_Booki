@@ -12,4 +12,4 @@ Deuxième projet de la formation Openclassroom : Créez la page d'accueil d'une 
 
 - Installer un environnement de développement front-end
 
-Lien du site : https://daiba-yume.github.io/Projet_Booki/
+Lien du site : <https://daiba-yume.github.io/Projet_Booki/>
