@@ -47,7 +47,9 @@
     flex-direction: column;
     align-items: unset;
   }
-
+  .filtres {
+    width: 80%;
+  }
   .icone {
     background-color: unset;
   }
